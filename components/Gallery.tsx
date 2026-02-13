@@ -15,7 +15,7 @@ const Gallery: React.FC = () => {
     <div className="py-20 px-4 md:px-8 max-w-7xl mx-auto">
       <div className="text-center mb-16">
         {/* EDITABLE: Section Title */}
-        <h2 className="text-4xl md:text-5xl font-script text-deep-red mb-4">Our Beautiful Memories</h2>
+        <h2 className="text-4xl md:text-5xl font-script text-deep-red mb-4">Beautiful Memories</h2>
         <div className="w-24 h-1 bg-rose-gold mx-auto rounded-full"></div>
       </div>
 
