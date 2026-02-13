@@ -3,10 +3,11 @@ import { motion, AnimatePresence } from 'framer-motion';
 import confetti from 'canvas-confetti';
 import { Heart, Stars, Mail, Lock, X } from 'lucide-react';
 
-import Countdown from './components/Countdown';
-import Gallery from './components/Gallery';
-import PoemSection from './components/PoemSection';
-import MusicPlayer from './components/MusicPlayer';
+// EDITABLE: Imports must end in .tsx or .ts for GitHub Pages to find them
+import Countdown from './components/Countdown.tsx';
+import Gallery from './components/Gallery.tsx';
+import PoemSection from './components/PoemSection.tsx';
+import MusicPlayer from './components/MusicPlayer.tsx';
 
 // EDITABLE: Set this date to the actual birthday!
 // Format: YYYY-MM-DDT00:00:00

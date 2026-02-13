@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { CountdownTime } from '../types';
+// EDITABLE: Import must end in .ts
+import { CountdownTime } from '../types.ts';
 import { Heart, Gift } from 'lucide-react';
 
 interface CountdownProps {

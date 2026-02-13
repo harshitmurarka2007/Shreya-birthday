@@ -6,6 +6,10 @@
     <title>Happy Birthday!</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Babel for in-browser compilation of React/TSX -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
     <script>
       tailwind.config = {
         theme: {
@@ -67,5 +71,7 @@
 </head>
   <body>
     <div id="root"></div>
+    <!-- Load the main entry file with Babel -->
+    <script type="text/babel" data-type="module" src="./index.tsx" data-presets="react,typescript"></script>
   </body>
 </html>
