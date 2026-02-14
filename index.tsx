@@ -18,7 +18,7 @@ const SITE_CONFIG = {
   eventDate: new Date(2026, 1, 15, 0, 0, 0), 
 
   // 2. Music: Link to the background music (Must be a direct MP3 link)
-  musicUrl: "https://drive.google.com/file/d/1mqjq4tfDT1tXJ7YP9V4ulQo9JjYAeMgn/view?usp=drive_link",
+  musicUrl: "./birthday.mp3",
 
   // 3. Hero Section: The big screen she sees first
   hero: {
